@@ -1,0 +1,28 @@
+{
+  "name": "aws-utils",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "truncateTable": "node ./truncateTable.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tmicheletto/aws-utils.git"
+  },
+  "keywords": [
+    "aws",
+    "node"
+  ],
+  "author": "Tim Micheletto",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tmicheletto/aws-utils/issues"
+  },
+  "homepage": "https://github.com/tmicheletto/aws-utils#readme",
+  "dependencies": {
+    "aws-sdk": "^2.241.1",
+    "yargs": "^11.0.0"
+  }
+}
